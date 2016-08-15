@@ -1,0 +1,54 @@
+﻿.wrap {
+    width: 90%;
+    margin: auto;
+}
+
+.cursor-click {
+    cursor: pointer;
+}
+
+.table .table-header {
+    background-color: #bdbdbd;
+}
+
+.modal {
+    display: block;
+    background: rgba(0,0,0, 0.3);
+}
+
+    .modal .modal-content {
+        padding: 10px;
+    }
+
+    .modal .close-window {
+        border: 1px solid black;
+        width: 30px;
+        text-align: center;
+        position: absolute;
+        right: 20px;
+        background: #bdbdbd;
+    }
+
+    .modal .book-title {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .modal .book-img {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+        .modal .book-img img {
+            width: 152px;
+            height: 191px;
+        }
+
+    .modal .span-border-right {
+        border-right: 1px solid black;
+        padding-right: 5px;
+    }
+
+.error {
+    text-align: center;
+}
