@@ -18,7 +18,7 @@
       var q = $q.defer();
       $http({
         method: "GET",
-        url: 'cm.mmi.macc.com.ua/tests/sample.php'
+        url: 'http://cm.mmi.macc.com.ua/tests/sample.php'
       }).then(handleSuccess, handleError);
       function handleSuccess(response) {
         q.resolve(response);
